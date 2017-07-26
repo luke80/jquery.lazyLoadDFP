@@ -1,0 +1,66 @@
+{
+  "name": "jquery-lazyLoadDFP",
+  "title": "jQuery Lazy Load for Google DoubleClick for Publishers - Delayed action DFP loading scripts",
+  "version": "0.0.1",
+  "description": "This project is meant to allow delayed processing of ads to allow advertising impressions to be accurately delivered upon customer impression.",
+  "main": "jquery.lazyLoadDFP.js",
+  "bugs": "http://github.com/luke80/jquery.lazyLoadDFP/issues",
+  "author": {
+    "name": "Luke Rebarchik",
+    "email": "luke@rebarchik.com",
+    "url": "http://luke.rebarchik.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luke80/jquery.lazyLoadDFP.git"
+  },
+  "keywords": [
+    "lazy",
+    "lazyload",
+    "load",
+    "loader",
+    "image",
+    "images",
+    "background",
+    "content",
+    "speed",
+    "delay",
+    "delayed",
+    "pageload",
+    "performance",
+    "placeholder",
+    "jquery",
+    "jquery-plugin",
+    "dfp",
+    "advertisements"
+  ],
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  },{
+    "type": "GPL-2.0",
+    "url": "http://www.gnu.org/licenses/gpl-2.0.html"
+  }],
+  "dependencies": {
+    "jquery": ">=1.7.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat-util": "^0.5.5",
+    "gulp-data": "^1.2.1",
+    "gulp-header": "^1.8.8",
+    "gulp-jshint": "^2.0.4",
+    "gulp-noop": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.0"
+  },
+  "scripts": {
+    "validate": "gulp validate",
+    "start": "gulp watch",
+    "watch": "gulp watch",
+    "build": "gulp build"
+  }
+}
